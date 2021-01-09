@@ -1,0 +1,42 @@
+*, *::before,*::after{
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;;
+}
+body{
+    background-color: lightblue;
+}
+
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.InputValue{
+    height: 50px;
+    width: 600px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.submit{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.submit:hover{
+    background-color: gray;
+
+}
+.display{
+    text-align: center;
+}
